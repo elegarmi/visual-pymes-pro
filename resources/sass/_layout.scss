@@ -7,12 +7,12 @@
     flex-direction: column;
 }
 
-#app > * {
-    padding: 1.5rem;
+nav, footer {
+    padding: 1.5rem 8% !important;
 }
 
-nav, main, footer {
-    padding: 1.5rem 8% !important;
+main > div {
+    padding: 6rem 8% !important;
 }
 
 nav {
@@ -29,7 +29,6 @@ nav {
 }
 
 main {
-    padding: 6rem 8% !important;
     display: flex;
     flex: 1 0 auto;
 }

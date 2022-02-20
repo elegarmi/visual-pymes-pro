@@ -11398,12 +11398,12 @@ body {
   flex-direction: column;
 }
 
-#app > * {
-  padding: 1.5rem;
+nav, footer {
+  padding: 1.5rem 8% !important;
 }
 
-nav, main, footer {
-  padding: 1.5rem 8% !important;
+main > div {
+  padding: 6rem 8% !important;
 }
 
 nav .navbar-brand {
@@ -11418,7 +11418,6 @@ nav .navbar-brand .brand-logo {
 }
 
 main {
-  padding: 6rem 8% !important;
   display: flex;
   flex: 1 0 auto;
 }
@@ -11457,4 +11456,9 @@ footer {
   background: #698A2E;
   color: #f8fafc;
   font-weight: bold;
+}
+
+.register-container {
+  background: url(/images/register-bg.jpg?42a59852864f32d49ad55a731be9dd51);
+  max-width: 100%;
 }
