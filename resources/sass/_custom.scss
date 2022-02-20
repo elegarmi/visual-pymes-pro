@@ -2,3 +2,17 @@
     background: url(../../public/assets/register-bg.jpg);
     max-width: 100%;
 }
+
+.btn-primary {
+    color: #fff;
+    background-color: $third-color;
+    border-color: $third-color;
+}
+
+.btn-link {
+    color: $fourth-color;
+
+    &:hover {
+        color: $fourth-color-dark;
+    }
+}

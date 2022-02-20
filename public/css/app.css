@@ -11462,3 +11462,16 @@ footer {
   background: url(/images/register-bg.jpg?42a59852864f32d49ad55a731be9dd51);
   max-width: 100%;
 }
+
+.btn-primary {
+  color: #fff;
+  background-color: #FFDA1A;
+  border-color: #FFDA1A;
+}
+
+.btn-link {
+  color: #698A2E;
+}
+.btn-link:hover {
+  color: #567227;
+}
