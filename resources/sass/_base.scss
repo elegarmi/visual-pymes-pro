@@ -1,0 +1,36 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font-family-title;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+nav {
+    .navbar-brand {
+        h1 {
+            margin-top: 0.2rem;
+        }
+    }
+    
+    .navbar-nav {
+        a.nav-link {
+            display: inline-flex;
+            align-items: center;
+        
+            svg {
+                margin-right: 0.4rem;
+            }
+        }
+    }
+}
+
+main {
+    background: $light-bg;
+}
+
+footer {
+    background: $fourth-color;
+    color: $first-color;
+    font-weight: bold;
+}
